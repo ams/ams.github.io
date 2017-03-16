@@ -1,0 +1,819 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<!-- Created by GNU Texinfo 6.3, http://www.gnu.org/software/texinfo/ -->
+<head>
+<title>the daily ams</title>
+
+<meta name="description" content="the daily ams">
+<meta name="keywords" content="the daily ams">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+<meta name="Generator" content="makeinfo">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="#Top" rel="start" title="Top">
+<link href="dir.html#Top" rel="up" title="(dir)">
+<style type="text/css">
+<!--
+a.summary-letter {text-decoration: none}
+blockquote.indentedblock {margin-right: 0em}
+blockquote.smallindentedblock {margin-right: 0em; font-size: smaller}
+blockquote.smallquotation {font-size: smaller}
+div.display {margin-left: 3.2em}
+div.example {margin-left: 3.2em}
+div.lisp {margin-left: 3.2em}
+div.smalldisplay {margin-left: 3.2em}
+div.smallexample {margin-left: 3.2em}
+div.smalllisp {margin-left: 3.2em}
+kbd {font-style: oblique}
+pre.display {font-family: inherit}
+pre.format {font-family: inherit}
+pre.menu-comment {font-family: serif}
+pre.menu-preformatted {font-family: serif}
+pre.smalldisplay {font-family: inherit; font-size: smaller}
+pre.smallexample {font-size: smaller}
+pre.smallformat {font-family: inherit; font-size: smaller}
+pre.smalllisp {font-size: smaller}
+span.nolinebreak {white-space: nowrap}
+span.roman {font-family: initial; font-weight: normal}
+span.sansserif {font-family: sans-serif; font-weight: normal}
+ul.no-bullet {list-style: none}
+-->
+</style>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+
+<body lang="en">
+<h1 class="settitle" align="center">the daily ams</h1>
+
+
+
+<a name="Top"></a>
+<div class="header">
+<p>
+Next: <a href="#Journal" accesskey="n" rel="next">Journal</a>, Up: <a href="dir.html#Top" accesskey="u" rel="up">(dir)</a> &nbsp; </p>
+</div>
+<a name="SEC_Top"></a>
+
+<p>Welcome to my info-page! I&rsquo;ll try to keep a journal, a bunch of
+random notes, articles I found interesting, and other things here.
+</p>
+<p>Feel free to send comments and suggestions to <a href="mailto:ams@gnu.org">ams@gnu.org</a>.
+</p>
+<p>This page was lasted updated March 16, 2017.
+</p>
+<table class="menu" border="0" cellspacing="0">
+<tr><td align="left" valign="top">&bull; <a href="#Journal" accesskey="1">Journal</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">A blog of sorts
+</td></tr>
+<tr><td align="left" valign="top">&bull; <a href="#Photography" accesskey="2">Photography</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Photography
+</td></tr>
+<tr><td align="left" valign="top">&bull; <a href="#Bookmarks" accesskey="3">Bookmarks</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Useful or interesting bookmarks
+</td></tr>
+</table>
+
+<hr>
+<a name="Journal"></a>
+<div class="header">
+<p>
+Next: <a href="#Photography" accesskey="n" rel="next">Photography</a>, Previous: <a href="#Top" accesskey="p" rel="prev">Top</a>, Up: <a href="#Top" accesskey="u" rel="up">Top</a> &nbsp; </p>
+</div>
+<a name="Journal-1"></a>
+<h2 class="unnumbered">Journal</h2>
+
+
+
+<a name="GNU-inetutils-1_002e9_002e4"></a>
+<h3 class="unnumberedsec"><span class="roman">GNU inetutils 1.9.4</span></h3>
+<a name="g_t2015_002d06_002d09"></a><p align="right"><span class="roman"><b>Written on 2015-06-09.</b></span>
+</p>
+<p>The GNU inetutils team is proud to present version 1.9.4 of the GNU
+networking utilities.  The GNU Networking Utilities are the common
+networking utilities, clients and servers of the GNU Operating System.
+</p>
+<p>The following is new in this release:
+</p>
+<ul>
+<li> ifconfig
+
+<p>This is a minor bug release that fixes a regression in &lsquo;ifconfig&rsquo;.
+The issue was reported by Juergen Daubert in
+<a href="http://lists.gnu.org/archive/html/bug-inetutils/2015-05/msg00002.html">http://lists.gnu.org/archive/html/bug-inetutils/2015-05/msg00002.html</a>.
+</p></li></ul>
+
+<a name="GNU-inetutils-1_002e9_002e3"></a>
+<h3 class="unnumberedsec"><span class="roman">GNU inetutils 1.9.3</span></h3>
+<a name="g_t2015_002d05_002d31"></a><p align="right"><span class="roman"><b>Written on 2015-05-31.</b></span>
+</p>
+<p>The GNU inetutils team is proud to present version 1.9.3 of the GNU
+networking utilities.  The GNU Networking Utilities are the common
+networking utilities, clients and servers of the GNU Operating System.
+</p>
+<p>The following is new in this release:
+</p>
+<ul>
+<li> ftp
+
+<p>An old inability to allow other names than the canonical name has been
+corrected.  This means that a machine entry in the .netrc file will
+now be used as expected.  Previously any alias name was replaced by
+the corresponding canonical name, before reading the .netrc file.
+</p>
+<p>The internal command &lsquo;hash&rsquo; accepts a suffixed letter to the size
+argument, like &lsquo;12k&rsquo;, instead of 12288.  Made a minor change to the
+syntax of the command itself, allowing size changes independently of
+activation of hash markings.  After a transfer the summary gives the
+speed as &lsquo;Mbytes/s&rsquo;, &lsquo;kbytes/s&rsquo;, or &lsquo;bytes/s&rsquo;.
+</p>
+<p>The .netrc file can be overridden by the environment variable NETRC.
+Of even higher precedence is the new option &lsquo;-N/&ndash;netrc&rsquo;.  The access
+to the resulting file, whatever method, is now denied unless it is a
+regular file.
+</p>
+</li><li> ifconfig
+
+<p>Better command line parsing on BSD and Solaris systems.  Touch only
+changeable flags on all systems.
+</p>
+</li><li> logger
+
+<p>The ability to use numerical facilities is restored to full range.
+</p>
+</li><li> ping, ping6
+
+<p>The ability to specify a pattern as payload is corrected.
+</p>
+</li><li> syslogd
+
+<p>A new switch &lsquo;-T/&ndash;local-time&rsquo; makes the service ignore a time stamp
+passed on by the remote host, recording instead the local time at the
+moment the message was received.  As a short form of &lsquo;&ndash;pidfile&rsquo;, the
+switch &lsquo;-P&rsquo; is new.
+</p>
+<p>In common with other syslogd implementations, rsyslogd and sysklogd,
+there has for a long time existed an attack vector based on large
+facility numbers, made public in CVE-2014-3684.  This is now mended in
+our code base.
+</p>
+</li><li> telnetd
+
+<p>The ability to autologin a client, without using authentication, is
+now functional in the expected manner, i.e., the prompt for a user
+name is suppressed in favour of an immediate password prompt.
+</p>
+<p>In a setting where the client is using a UTF-8 encoding, it was common
+to observe strange characters in most responses.  This was caused by
+the server daemon, due to incomplete purging of internal protocol
+data.  The issue should now be resolved.
+</p>
+</li><li> whois
+
+<p>Improved cooperation with servers like &lsquo;whois.arin.net&rsquo;, &lsquo;whois.eu&rsquo;,
+and &lsquo;whois.ripe.net&rsquo;.
+</p></li></ul>
+
+<a name="GNU-inetutils-1_002e9_002e2"></a>
+<h3 class="unnumberedsec"><span class="roman">GNU inetutils 1.9.2</span></h3>
+<a name="g_t2014_002d01_002d13"></a><p align="right"><span class="roman"><b>Written on 2014-01-13.</b></span>
+</p>
+<p>The GNU inetutils team is proud to present version 1.9.2 of the GNU
+networking utilities.  The GNU Networking Utilities are the common
+networking utilities, clients and servers of the GNU Operating System.
+</p>
+<p>I would like to once again thank Mats Erik Andersson for his
+tremendously wonderful work; it is due to him that this release sees
+the light of day.  Happy winter solstice!
+</p>
+
+<p>The following is new in this release:
+</p>
+<p>An advisory file CHECKLIST containing testing and verification advice
+has been added, pointing administrators to important properties and
+settings for built executables.
+</p>
+<ul>
+<li> IDN &ndash; International Domain Names
+
+<p>The clients &lsquo;ftp&rsquo;, &lsquo;ping&rsquo;, &lsquo;ping6&rsquo;, &lsquo;talk&rsquo;, &lsquo;telnet&rsquo;, &lsquo;tftp&rsquo;, and
+&lsquo;traceroute&rsquo; are now capable of using libidn when resolving domain
+names with character sets richer than ASCII.
+</p>
+<p>Systems using the GNU C library achieve this ability by other means in
+the present code, so they do not need to link against libidn at all.
+</p>
+</li><li> New tool &rsquo;dnsdomainname&rsquo;.
+
+</li><li> ftp
+
+<p>Called as &lsquo;pftp&rsquo;, passive mode is preset.  New switch &lsquo;-e/&ndash;no-edit&rsquo;
+for compatibility with other implementations.  Can now be built
+without readline by passing &lsquo;&ndash;disable-readline&rsquo; to configure.  New
+command &lsquo;lpwd&rsquo; avoids a shell call for a common task.  The legacy
+limit for lengths of input lines (previously 200) has been removed.
+Now it is system dependent and is common with most other tools.
+</p>
+<p>Full IPv6 support.  PAM support for Linux-PAM, OpenPAM, and Sun-PAM as
+service &lsquo;ftp&rsquo;.  Observe that the latter two implementations only
+affect non-anonymous access, since &lsquo;pam_ftp.so&rsquo; exists for Linux-PAM
+only, so the standard checks are enforced on &lsquo;ftp/anonymous&rsquo; as usual.
+The server now accepts the commands LPRT and LPSV.
+</p>
+<p>The parsing of &lsquo;/etc/ftpusers&rsquo; and &lsquo;/etc/ftpchroot&rsquo; now allows the
+specification of group names, simply by preceding the identifier with
+an at-sign &lsquo;@&rsquo;.  An isolated &lsquo;@&rsquo; acts as a wildcard and matches
+every user name.  In addition, the parser is more forgiving of spaces
+and tabs, thus achieving better portability of these two files when
+compared with other systems.
+</p>
+<p>The server will by default not disclose that the requested user name
+is invalid, but will instead proceed with a faked password dialogue.
+This is in accordance with RFC 2577.  The new option &lsquo;&ndash;non-rfc2577&rsquo;
+will now restore the legacy type responses, informing about
+non-existing users and also about expired accounts, or expired
+passwords.
+</p>
+</li><li> ifconfig
+
+<p>Provides new support for BSD and improved support for Solaris.
+Argument handling has been corrected to avoid some segfaults.
+</p>
+</li><li> ping
+
+<p>New switches &lsquo;&ndash;ip-timestamp&rsquo;, &lsquo;&ndash;mask&rsquo;, &lsquo;-T/&ndash;tos&rsquo; and &lsquo;&ndash;ttl&rsquo;.  Can
+use file capabilities instead of suid-setting.
+</p>
+</li><li> ping6
+
+<p>New switches &lsquo;&ndash;hoplimit/&ndash;ttl&rsquo;, &lsquo;-T/&ndash;tos&rsquo; and &lsquo;-v/&ndash;verbose&rsquo;.  File
+capabilities are sufficient.
+</p>
+</li><li> syslogd
+
+<p>Messages can be logged to specific files according to the name of the
+submitting program, on the tag attached to the message.  The mechanism
+is patterned after same feature used in on BSD.
+</p>
+<p>Support loading of multiple configuration files located in a single
+directory.  New switches &lsquo;-D/&ndash;rcdir&rsquo;.
+</p>
+</li><li> traceroute
+
+<p>Default mode is now UDP, for better conformity with Unices.  New
+switches &lsquo;-f/&ndash;first-hop&rsquo;, &lsquo;-g/&ndash;gateways&rsquo;, &lsquo;-I/&ndash;icmp&rsquo;,
+&lsquo;-m/&ndash;max-hop&rsquo;, &lsquo;-t/&ndash;tos&rsquo;, and &lsquo;-w/&ndash;wait&rsquo;.  File capabilities
+suffice.
+</p>
+</li><li> inetd
+
+<p>Service configuration now allows setting also the group.
+</p>
+</li><li> rcp
+
+<p>Supports IPv6 and Shishi.  New switches &lsquo;-4/&ndash;ipv4&rsquo;, &lsquo;-6/&ndash;ipv6&rsquo;,
+&lsquo;-k/&ndash;realm&rsquo;, &lsquo;-K/&ndash;kerberos&rsquo;, and &lsquo;-x/&ndash;encrypt&rsquo;.  A file capability
+like &lsquo;cap_net_bind_service&rsquo; can be applied instead of installing the
+binary setuid.
+</p>
+</li><li> rexec
+
+<p>Supports IPv6.  New switches &lsquo;-4/&ndash;ipv4&rsquo;, &lsquo;-6/&ndash;ipv6&rsquo;, &lsquo;-a/&ndash;ipany&rsquo;
+</p>
+</li><li> rexecd
+
+<p>Can be built with PAM support as service &lsquo;rexec&rsquo;.  New option
+&lsquo;-l/&ndash;logging&rsquo;.
+</p>
+</li><li> rlogin, rsh
+
+<p>Support IPv6.  New switches &lsquo;-4/&ndash;ipv4&rsquo;, &lsquo;-6/&ndash;ipv6&rsquo;.  A file
+capability like &lsquo;cap_net_bind_service&rsquo; can be applied instead of
+installing the binary setuid.
+</p>
+</li><li> rlogind
+
+<p>Support for IPv6 and PAM as services &lsquo;rlogin&rsquo; and &lsquo;krlogin&rsquo;.
+Buildable with libwrap support for use in stand-alone daemon mode.
+New switches &lsquo;-4/&ndash;ipv4&rsquo;, &lsquo;-6/&ndash;ipv6&rsquo;, and &lsquo;-S/&ndash;server-principal&rsquo;.
+</p>
+</li><li> rshd
+
+<p>Now has support for IPv6, PAM, and Shishi, with PAM services &lsquo;rsh&rsquo; and
+&lsquo;krsh&rsquo;.  New switches &lsquo;-k/&ndash;kerberos&rsquo;, &lsquo;-r/&ndash;reverse-required&rsquo;,
+&lsquo;-S/&ndash;server-principal&rsquo;, &lsquo;-v/&ndash;vacuous&rsquo;, and &lsquo;-x/&ndash;encrypt&rsquo;.
+</p>
+</li><li> telnet
+
+<p>New switch &lsquo;-k/&ndash;realm&rsquo;.
+</p>
+</li><li> telnetd
+
+<p>New switch &lsquo;-S/&ndash;server-principal&rsquo;.
+</p>
+</li><li> talkd
+
+<p>Has seen reworked ACL-mechanisms, believed to be functional!  New
+switches &lsquo;-l/&ndash;logging&rsquo;, and &lsquo;-S/&ndash;strict-policy&rsquo;.
+</p>
+</li><li> tftpd
+
+<p>New switches &lsquo;-g/&ndash;group&rsquo;, &lsquo;-s/&ndash;secure-dir&rsquo;, and &lsquo;-u/&ndash;user&rsquo;.
+</p>
+</li><li> uucpd
+
+<p>New switch &lsquo;-u/&ndash;uucico&rsquo;.
+</p></li></ul>
+
+<p>Please send bug reports to <a href="mailto:bug-inetutils@gnu.org">bug-inetutils@gnu.org</a>.
+</p>
+<p>Here are the compressed sources:
+<a href="ftp://ftp.gnu.org/gnu/inetutils/inetutils-1.9.2.tar.gz">ftp://ftp.gnu.org/gnu/inetutils/inetutils-1.9.2.tar.gz</a>
+</p>
+<a name="GNU-inetutils-1_002e9_002e1"></a>
+<h3 class="unnumberedsec"><span class="roman">GNU inetutils 1.9.1</span></h3>
+<a name="g_t2012_002d01_002d06"></a><p align="right"><span class="roman"><b>Written on 2012-01-06.</b></span>
+</p>
+<p>The GNU inetutils team is proud to present version 1.9.1 of the GNU
+network utilities suite.  The GNU network utilities suite provides the
+following tools: ftp(d), hostname, ifconfig, inetd, logger, ping, rcp,
+rexec(d), rlogin(d), rsh(d), syslogd, talk(d), telnet(d), tftp(d),
+traceroute, uucpd, and whois.
+</p>
+<p>The following things are new in this release (please see the NEWS file
+for all the details):
+</p>
+<ul>
+<li> Don&rsquo;t install <code>git-merge-changelog</code>.
+</li></ul>
+
+<p>Please send bug reports to <a href="mailto:bug-inetutils@gnu.org">bug-inetutils@gnu.org</a>.
+</p>
+<p>Here are the compressed sources:
+<a href="ftp://ftp.gnu.org/gnu/inetutils/inetutils-1.9.1.tar.gz">ftp://ftp.gnu.org/gnu/inetutils/inetutils-1.9.1.tar.gz</a>
+</p>
+<a name="GNU-inetutils-1_002e9"></a>
+<h3 class="unnumberedsec"><span class="roman">GNU inetutils 1.9</span></h3>
+<a name="g_t2011_002d12_002d31"></a><p align="right"><span class="roman"><b>Written on 2011-12-31.</b></span>
+</p>
+<p>The GNU inetutils team is proud to present version 1.9 of the GNU
+network utilities suite.  The GNU network utilities suite provides the
+following tools: ftp(d), hostname, ifconfig, inetd, logger, ping, rcp,
+rexec(d), rlogin(d), rsh(d), syslogd, talk(d), telnet(d), tftp(d),
+traceroute, uucpd, and whois.
+</p>
+<p>Special thanks go to Mats Erik Anderson for doing such an excellent
+job!
+</p>
+<p>The following things are new in this release (please see the NEWS file
+for all the details):
+</p>
+<ul>
+<li> Security fixes
+
+<p>This release fixes a security flaw in telnetd that could lead to
+remote access.
+</p>
+</li><li> Solaris is now a supported platform
+
+<p>Support is still new, so please report any bugs to
+<a href="mailto:bug-inetutils@gnu.org">bug-inetutils@gnu.org</a>.
+</p>
+</li><li> Many OpenBSD fixes.
+
+<p>Many problems on OpenBSD have been fixed.
+</p>
+</li><li> ftp, tftp, tftpd
+
+<p>Handle IPv6 connections.  ftpd is still IPv4-only until next release.
+</p>
+</li><li> syslogd, logger
+
+<p>Handle IPv6 connections.  The server can forward messages without
+using a listening INET socket.  It can also bind to a single
+INET/INET6 address.
+</p>
+</li><li> rlogind, rshd
+
+<p>This legacy code was vulnerable to an attack based on source routing.
+Whenever either of <code>IPOPT_SSRR</code> or <code>IPOPT_LSRR</code> is
+encountered, the newly initiated connection is now server-side
+aborted.  The advisory issued by Secure Networks, Inc., February 1997,
+was adapted.  It was found at
+<a href="http://www.citi.umich.edu/u/provos/papers/secnet-spoof.txt">http://www.citi.umich.edu/u/provos/papers/secnet-spoof.txt</a>
+</p>
+</li><li> ifconfig
+
+<p>Now under GNU/Linux <code>ifconfig -a</code> shows also interfaces without
+an address.
+</p>
+<p>Adjusted output formating for <code>unix</code>.
+</p>
+</li><li> ping
+
+<p>Now supports <code>-W</code> parameter to specify number of seconds to wait
+for response.
+</p>
+</li><li> Various bugs fixes, internal improvements and clean ups.
+</li></ul>
+
+<p>Please send bug reports to <a href="mailto:bug-inetutils@gnu.org">bug-inetutils@gnu.org</a>.
+</p>
+<p>Here are the compressed sources:
+<a href="ftp://ftp.gnu.org/gnu/inetutils/inetutils-1.9.tar.gz">ftp://ftp.gnu.org/gnu/inetutils/inetutils-1.9.tar.gz</a>
+</p>
+<a name="The-end-of-FSCONS-2011"></a>
+<h3 class="unnumberedsec"><span class="roman">The end of FSCONS 2011</span></h3>
+<a name="g_t2011_002d11_002d15"></a><p align="right"><span class="roman"><b>Written on 2011-11-15.</b></span>
+</p>
+<p>After a very intensive weekend, <a href="http://fscons.org/">FSCONS</a> is
+sadly over for this year.  Lots of interesting discussions and
+presentations ranging from human rights, to government issues, to free
+software...  And so many amazing people!  Many thanks to the crew who
+organized the event, and to all who participated.
+</p>
+<p>Now it is time to get back to hacking, and make a new release of
+<a href="http://gnu.org/s/inetutils">the GNU Networking Utilities</a>.
+</p>
+<a name="GNU-miscfiles-1_002e5"></a>
+<h3 class="unnumberedsec"><span class="roman">GNU miscfiles 1.5</span></h3>
+<a name="g_t2010_002d11_002d16"></a><p align="right"><span class="roman"><b>Written on 2010-11-16.</b></span>
+</p>
+<p>I am happy to announce the release of GNU miscfiles 1.5!  GNU
+miscfiles includes files not of crucial importance for system
+administration or operation, but which have come to be common on
+various systems over the years.
+</p>
+<p>New in this release is:
+</p><ul>
+<li> Updated the Unicode character database to 4.1.0 version of the standard.
+</li><li> Several typos are fixed in multiple files.  Other ones are expanded.
+</li><li> The list of airports has undergone major work.  Three new fields are added for country, geographical subdivision of country, and major cities served.  The list has been extended as well.
+</li></ul>
+
+<p>Here are the compressed sources:
+<a href="ftp://ftp.gnu.org/gnu/miscfiles/miscfiles-1.5.tar.gz">ftp://ftp.gnu.org/gnu/miscfiles/miscfiles-1.5.tar.gz</a>
+</p>
+<p>Please send all bug reports by electronic mail to
+<a href="mailto:bug-miscfiles@gnu.org">bug-miscfiles@gnu.org</a>.
+</p>
+<a name="Hacking-on-GNU-inetutils"></a>
+<h3 class="unnumberedsec"><span class="roman">Hacking on GNU inetutils</span></h3>
+<a name="g_t2010_002d10_002d19"></a><p align="right"><span class="roman"><b>Written on 2010-10-19.</b></span>
+</p>
+<p>Ben Asselstine asked me to record a video for his project,
+<a href="http://www.asselstine.com/1000minutes">1000 minutes</a>, whilst I
+was hacking or doing something, and so I did.  Follow the links at the
+site, and you should find it.
+</p>
+<blockquote>
+<p><a href="http://www.asselstine.com/1000minutes">1000 minutes</a> is a project
+to document the free software subculture by having free software
+developers take desktop video while they work.  The idea is to
+commemorate what it is like to develop free software right now.
+Future free software developers can look back on this resource to know
+what the programming experience was like back in 2010.
+</p></blockquote>
+
+<a name="GNU-inetutils-1_002e8"></a>
+<h3 class="unnumberedsec"><span class="roman">GNU inetutils 1.8</span></h3>
+<a name="g_t2010_002d05_002d15"></a><p align="right"><span class="roman"><b>Written on 2010-05-15.</b></span>
+</p>
+<p>The GNU inetutils team is proud to present version 1.8 of the GNU
+network utilities suite.  The GNU network utilities suite provides the
+following tools: ftp(d), hostname, ifconfig, inetd, logger, ping, rcp,
+rexec(d), rlogin(d), rsh(d), syslogd, talk(d), telnet(d), tftp(d),
+traceroute, uucpd, and whois.
+</p>
+<p>The following things are new in this release (please see the NEWS file
+for all the details):
+</p>
+<p>The <code>ftp</code> utility now accepts <samp>--active</samp> and
+<samp>--passive</samp> options.
+</p>
+<p><code>ifconfig</code> accepts the commands <samp>up</samp>, <samp>down</samp>,
+<samp>multicast</samp>, and <samp>allmulti</samp> to be compatible with older
+ifconfig implementations.
+</p>
+<p>A few more goodies, and of course, bug fixes...
+</p>
+<p>Please send bug reports to <a href="mailto:bug-inetutils@gnu.org">bug-inetutils@gnu.org</a>.
+</p>
+<p>Here are the compressed sources:
+<a href="ftp://ftp.gnu.org/gnu/inetutils/inetutils-1.8.tar.gz">ftp://ftp.gnu.org/gnu/inetutils/inetutils-1.8.tar.gz</a>
+</p>
+<a name="GNU-inetutils-1_002e7"></a>
+<h3 class="unnumberedsec"><span class="roman">GNU inetutils 1.7</span></h3>
+<a name="g_t2009_002d12_002d16"></a><p align="right"><span class="roman"><b>Written on 2009-12-16.</b></span>
+</p>
+<p>The GNU inetutils team is proud to present version 1.7 of the GNU
+network utilities suite.  The GNU network utilities suite provides the
+following tools: ftp(d), hostname, ifconfig, inetd, logger, ping, rcp,
+rexec(d), rlogin(d), rsh(d), syslogd, talk(d), telnet(d), tftp(d),
+traceroute, uucpd, and whois.
+</p>
+<p>Many thanks to all the people who contributed to this release.  As
+always, we are looking for contributors and tester.  Happy hacking!
+</p>
+<p>The following things are new in this release:
+</p>
+<ul>
+<li> ping
+
+<p>New option <samp>--timeout=<var>N</var></samp>, stop sending packets after
+<var>N</var> seconds.
+</p>
+<p>Restore the traditional behavior of ping without <code>-c</code> option.
+</p>
+</li><li> logger
+
+<p>The <code>logger</code> utility has been rewritten from scratch.  The new
+implementation offers many new facilities.  In particular, it is able
+to send messages to system loggers on remote machines, and to supply
+the PID number to include in messages, instead of the PID of the
+<code>logger</code> process.
+</p>
+</li><li> The manual is now licensed under the GNU FDL version 1.3 or later.
+<br> <br>
+
+</li><li> rexec
+
+<p>New program.
+</p>
+</li><li> tftp
+
+<p>Command line parsing now uses <code>argp</code>.
+</p>
+</li><li> Man pages for all tools are generated using <code>help2man</code>.
+</li></ul>
+
+<p>Please send bug reports to <a href="mailto:bug-inetutils@gnu.org">bug-inetutils@gnu.org</a>.
+</p>
+<p>Here are the compressed sources:
+<a href="ftp://ftp.gnu.org/gnu/inetutils/inetutils-1.7.tar.gz">ftp://ftp.gnu.org/gnu/inetutils/inetutils-1.7.tar.gz</a>
+</p>
+<a name="Running-only-GNU_002fLinux-on-a-Mac"></a>
+<h3 class="unnumberedsec"><span class="roman">Running only GNU/Linux on a Mac</span></h3>
+<a name="g_t2009_002d11_002d03"></a><p align="right"><span class="roman"><b>Written on 2009-11-03.</b></span>
+</p>
+<p>I was surprised how easy it is to remove all non-free software on a
+Mac.  All you need to do to install GNU/Linux, and without having to
+fight EFI and other evils is simply to label the partition table as
+<code>msdos</code>.  Mac uses GPT by default, which requires special support
+in the boot loader; in my case GRUB.  Which is easily done using
+<code>parted</code>.
+</p>
+<p>Boot GNU/Linux from some suitable installation medium (I used a
+CD-ROM), start a terminal and issue the following:
+</p>
+<div class="example">
+<pre class="example"># parted /dev/sda
+(parted) mklabel msdos
+(parted) quit
+</pre></div>
+
+<p>And then just continue installing your favorite
+<a href="http://www.gnu.org/distros/free-distros.html">GNU/Linux</a> system
+as you normally would.
+</p>
+<a name="GNU-secrets-_002d_002d-argp"></a>
+<h3 class="unnumberedsec"><span class="roman">GNU secrets &ndash; argp</span></h3>
+<a name="g_t2009_002d05_002d11"></a><p align="right"><span class="roman"><b>Written on 2009-05-11.</b></span>
+</p>
+<p>The GNU system has many nice features that people do not know about,
+so I thought I&rsquo;d start of by once in while show a not so well known
+part of the GNU system.  Today, that is <code>argp</code>.
+</p>
+<p>Parsing options to command line programs is a tedious business, it is
+often error prone, and you always forget something.  Most people use
+the <code>getopt</code> or <code>getopt_long</code> (a GNU extension) functions,
+some do it manually.  While <code>getopt</code> and <code>getop_long</code> make
+the life easier for programmers, they are still tedious since one must
+maintain the <samp>--help</samp> and <samp>--version</samp> options manually,
+or managing optional and non-optional arguments to options.
+</p>
+<p>The <a href="http://www.gnu.org/s/libc/">GNU C library</a> has excellent
+documentation on <code>argp</code>, and many examples.
+See <a href="http://www.gnu.org/s/libc/manual/html_node/Argp.html">Parsing
+Program Options with Argp</a>, for details.
+</p>
+<p>Here is are some examples of a program that makes use of <code>argp</code>:
+</p>
+<div class="example">
+<pre class="example">$ ./ex-argp --help
+Usage: ex-argp [OPTION...] ARG1 ARG2
+ex-argp -- a simple example of argument parsing with argp
+
+  -o, --output=FILE          Output to FILE instead of standard output
+  -q, --quiet                Don't produce any output
+  -?, --help                 Give this help list
+      --usage                Give a short usage message
+  -V, --version              Print program version
+
+Mandatory or optional arguments to long options are also mandatory or
+optional for any corresponding short options.
+
+Report bugs to &lt;ams@gnu.org&gt;.
+$ ./ex-argp --version
+ex-argp 0.0
+$ ./ex-argp --output=foo
+ex-argp: invalid number of arguments
+Try `ex-argp --help' or `ex-argp --usage' for more information.
+$ ./ex-argp --output=foo 123 123
+ARG1=123
+ARG2=123
+--quiet=no
+--output=foo
+</pre></div>
+
+<p>What follows is the source code for the above example, the equivalent
+using <code>getopt</code> or <code>getopt_long</code>, would be much more tedious,
+longer and harder to maintain.
+</p>
+<div class="example">
+<pre class="example">#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;argp.h&gt;
+
+const char *argp_program_version = &quot;ex-argp 0.0&quot;;
+const char *argp_program_bug_address = &quot;&lt;ams@gnu.org&gt;&quot;;
+
+static char doc[] =
+  &quot;ex-argp -- a simple example of argument parsing with argp&quot;;
+static char args_doc[] = &quot;ARG1 ARG2&quot;;
+
+#define OPT_OUTPUT 256
+
+static struct argp_option options[] = {
+  {&quot;quiet&quot;, 'q', 0, 0, &quot;Don't produce any output&quot;},
+  {&quot;output&quot;, OPT_OUTPUT, &quot;FILE&quot;, 0,
+   &quot;Output to FILE instead of standard output&quot;},
+  {0}
+};
+
+struct arguments
+{
+  char *args[2];                /* ARG1 &amp; ARG2 */
+  int quiet;                    /* --quiet */
+  char *output;                 /* --output=FILE */
+};
+
+static error_t
+parse_opt (int key, char *arg, struct argp_state *state)
+{
+  /* Get the INPUT argument from `argp_parse', which we know is a
+     pointer to our arguments structure. */
+  struct arguments *arguments = state-&gt;input;
+
+  switch (key)
+    {
+    case 'q':
+      arguments-&gt;quiet = 1;
+      break;
+    case OPT_OUTPUT:
+      arguments-&gt;output = arg;
+      break;
+    case ARGP_KEY_ARG:
+      if (state-&gt;arg_num &gt;= 2)  /* Too many arguments.  */
+        argp_error (state, &quot;invalid number of arguments&quot;);
+      arguments-&gt;args[state-&gt;arg_num] = arg;
+      break;
+    case ARGP_KEY_END:
+      if (state-&gt;arg_num &lt; 2)   /* Not enough arguments.  */
+        argp_error (state, &quot;invalid number of arguments&quot;);
+      break;
+    default:
+      return ARGP_ERR_UNKNOWN;
+    }
+  return 0;
+}
+
+static struct argp argp = { options, parse_opt, args_doc, doc };
+
+int
+main (int argc, char **argv)
+{
+  struct arguments arguments;
+
+  arguments.quiet = 0;
+  arguments.output = &quot;-&quot;;
+
+  argp_parse (&amp;argp, argc, argv, 0, 0, &amp;arguments);
+
+  printf (&quot;ARG1=%s\nARG2=%s\n&quot;
+          &quot;--quiet=%s\n&quot;
+          &quot;--output=%s\n&quot;,
+          arguments.args[0], arguments.args[1],
+          arguments.quiet ? &quot;yes&quot; : &quot;no&quot;, arguments.output);
+
+  exit (0);
+}
+</pre></div>
+
+<a name="GNU-lsh-fiddling"></a>
+<h3 class="unnumberedsec"><span class="roman">GNU lsh fiddling</span></h3>
+<a name="g_t2009_002d04_002d06"></a><p align="right"><span class="roman"><b>Written on 2009-04-06.</b></span>
+</p>
+<p>Been trying to get several programs (cvs, git, rsync, ...) to work
+nicely with <a href="http://www.gnu.org/s/lsh/">GNU lsh</a>.  And so far,
+have been quite successful with it, I have the following in my
+<samp>~/.profile</samp>:
+</p>
+<div class="example">
+<pre class="example"># Tweaks to programs so that they will use lsh instead of ssh.
+export BZR_SSH=lsh
+export CVS_RSH=lsh
+export GIT_SSH=lsh
+export RSYNC_RSH=lsh
+</pre></div>
+
+<a name="Pretty-pages_002e_002e_002e"></a>
+<h3 class="unnumberedsec"><span class="roman">Pretty pages...</span></h3>
+<a name="g_t2009_002d03_002d07"></a><p align="right"><span class="roman"><b>Written on 2009-03-07.</b></span>
+</p>
+<p>These pages now use a <abbr>CSS</abbr> <a href="style.css">style-sheet</a> so that
+things look a lot nicer.  The style-sheet was written by Noah Slater.
+</p>
+<a name="First-useful-entry"></a>
+<h3 class="unnumberedsec"><span class="roman">First useful entry</span></h3>
+<a name="g_t2009_002d02_002d27"></a><p align="right"><span class="roman"><b>Written on 2009-02-27.</b></span>
+</p>
+<p>Thanks to Roland McGrath we now have tarballs published for the
+<a href="http://www.gnu.org/s/libc/">GNU C library</a> (version 2.8 and 2.9).
+And I&rsquo;ll be making later version available at
+<a href="ftp://ftp.gnu.org/gnu/glibc/">ftp://ftp.gnu.org/gnu/glibc/</a> when 2.10 is tagged.
+</p>
+<a name="Yet-another-journal_002e_002e_002e"></a>
+<h3 class="unnumberedsec"><span class="roman">Yet another journal...</span></h3>
+<a name="g_t2008_002d11_002d13"></a><p align="right"><span class="roman"><b>Written on 2008-11-13.</b></span>
+</p>
+<p>Jos&eacute; E. Marchesi, and Giuseppe Scrivano convinced me (or maybe
+forced!) to keep a journal.  So here it is, and I hope to keep posting
+things on occasion.
+</p>
+<hr>
+<a name="Photography"></a>
+<div class="header">
+<p>
+Next: <a href="#Bookmarks" accesskey="n" rel="next">Bookmarks</a>, Previous: <a href="#Journal" accesskey="p" rel="prev">Journal</a>, Up: <a href="#Top" accesskey="u" rel="up">Top</a> &nbsp; </p>
+</div>
+<a name="Photography-1"></a>
+<h2 class="unnumbered">Photography</h2>
+
+
+<a name="Royal-Enfield-535"></a>
+<h3 class="unnumberedsec">Royal Enfield 535</h3>
+
+<p>Pictures of my Royal Enfield 535, made by Pontus Adefjord.
+</p>
+<table>
+<tr><td width="25%"><div class="float">
+<p><a href="photos/535/IMGP8025.jpg"><img src="photos/535/IMGP8025_thumb.jpg" alt="photos/535/IMGP8025_thumb"></a>
+</p></div></td><td width="25%"><div class="float">
+<p><a href="photos/535/IMGP8016.jpg"><img src="photos/535/IMGP8016_thumb.jpg" alt="photos/535/IMGP8016_thumb"></a>
+</p></div></td><td width="25%"><div class="float">
+<p><a href="photos/535/IMGP8012.jpg"><img src="photos/535/IMGP8012_thumb.jpg" alt="photos/535/IMGP8012_thumb"></a>
+</p></div></td><td width="25%"><div class="float">
+<p><a href="photos/535/IMGP8033.jpg"><img src="photos/535/IMGP8033_thumb.jpg" alt="photos/535/IMGP8033_thumb"></a>
+</p></div></td></tr>
+<tr><td width="25%"><div class="float">
+<p><a href="photos/535/IMGP8018.jpg"><img src="photos/535/IMGP8018_thumb.jpg" alt="photos/535/IMGP8018_thumb"></a>
+</p></div></td><td width="25%"><div class="float">
+<p><a href="photos/535/IMGP8022.jpg"><img src="photos/535/IMGP8022_thumb.jpg" alt="photos/535/IMGP8022_thumb"></a>
+</p></div></td><td width="25%"><div class="float">
+<p><a href="photos/535/IMGP8014.jpg"><img src="photos/535/IMGP8014_thumb.jpg" alt="photos/535/IMGP8014_thumb"></a>
+</p></div></td><td width="25%"><div class="float">
+<p><a href="photos/535/IMGP8017.jpg"><img src="photos/535/IMGP8017_thumb.jpg" alt="photos/535/IMGP8017_thumb"></a>
+</p></div></td></tr>
+<tr><td width="25%"><div class="float">
+<p><a href="photos/535/IMGP8036.jpg"><img src="photos/535/IMGP8036_thumb.jpg" alt="photos/535/IMGP8036_thumb"></a>
+</p></div></td></tr>
+</table>
+
+<hr>
+<a name="Bookmarks"></a>
+<div class="header">
+<p>
+Previous: <a href="#Photography" accesskey="p" rel="prev">Photography</a>, Up: <a href="#Top" accesskey="u" rel="up">Top</a> &nbsp; </p>
+</div>
+<a name="Bookmarks-1"></a>
+<h2 class="unnumbered">Bookmarks</h2>
+
+<dl compact="compact">
+<dt><a href="http://stallman.org/">http://stallman.org/</a></dt>
+<dd><p>Richard M. Stallman&rsquo;s home page.
+</p>
+</dd>
+<dt><a href="http://wingolog.org/">http://wingolog.org/</a></dt>
+<dd><p>Andy Wingo&rsquo;s home page.
+</p>
+</dd>
+<dt><a href="http://havebackpack.com/">http://havebackpack.com/</a></dt>
+<dd><p>Daniel Luna&rsquo;s escapades across the world.
+</p></dd>
+</dl>
+
+<hr>
+
+
+
+</body>
+</html>
